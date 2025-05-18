@@ -10,12 +10,6 @@ public class Calculator {
         int sum = number1 + number2;
         int multiply = number1 * number2;
         int divide = number1 / number2;
-        int subtraction = number1 - number2;
-
-        System.out.println("Sum = " + sum);
-        System.out.println("Multiply = " + multiply);
-        System.out.println("Divide = " + divide);
-        System.out.println("Subtraction = " + subtraction);
-    }
+        int subtraction = number1 - number2;}
 
 }
