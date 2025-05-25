@@ -9,6 +9,7 @@ class BancAccount {
 
     public BancAccount(String owner){
         this.owner = owner;
+        this.money = 0;
     }
 
 public BancAccount(String owner, int money)
