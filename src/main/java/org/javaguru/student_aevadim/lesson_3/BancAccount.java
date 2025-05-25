@@ -7,6 +7,10 @@ class BancAccount {
     no usages
     private int money;
 
+    public BancAccount(int money) {
+        this.money = money;
+    }
+
     public BancAccount(String owner){
         this.owner = owner;
         this.money = 0;

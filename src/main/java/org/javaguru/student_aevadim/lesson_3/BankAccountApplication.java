@@ -9,6 +9,10 @@ class BankAccountApplication {
 
         BancAccount bancAccount4 = new BancAccount("Sanita");
         BancAccount bancAccount5 = new BancAccount("Didzis");
+
+        BancAccount bancAccount6 = new BancAccount(100);
+        BancAccount bancAccount7 = new BancAccount(200);
+
     }
 
 
