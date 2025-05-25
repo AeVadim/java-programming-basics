@@ -22,8 +22,11 @@ class BankAccountApplication {
 
         System.out.println("Enter money: ");
         int money = scanner.nextInt();
-        
+
         BancAccount bancAccount8 = new BancAccount(owner, money);
+
+        String owner1 = bancAccount8.getOwner();
+        System.out.println("Owner: " + owner1);
 
     }
 

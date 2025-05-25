@@ -17,10 +17,9 @@ class BancAccount {
 public BancAccount(String owner, int money) {
     this.owner = owner;
     this.money = money;
-
 }
-
-
-
+public  String getOwner() {
+        return this.owner;
+}
 
 }
