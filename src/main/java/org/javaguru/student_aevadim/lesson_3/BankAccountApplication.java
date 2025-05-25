@@ -32,6 +32,16 @@ class BankAccountApplication {
         System.out.println("BA 2 Owner: " + bancAccount2.getOwner());
         System.out.println("BA 3 Owner: " + bancAccount3.getOwner());
 
+        System.out.println("BA 3 Money: " + bancAccount3.getMoney());
+        System.out.println("BA 2 Money: " + bancAccount2.getMoney());
+        System.out.println("BA 1 Money: " + bancAccount1.getMoney());
+
+        bancAccount3.setMoney(187765);
+        bancAccount5.setMoney(999999);
+
+        System.out.println("BA 3 Money: " + bancAccount3.getOwner());
+        System.out.println("BA 5 Money: " + bancAccount5.getOwner());
+
 
     }
 
