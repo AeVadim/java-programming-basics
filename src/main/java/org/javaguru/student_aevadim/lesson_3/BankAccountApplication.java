@@ -1,5 +1,7 @@
 package org.javaguru.student_aevadim.lesson_3;
 
+import java.util.Scanner;
+
 class BankAccountApplication {
 
     public static void main(String[] args){
@@ -12,6 +14,16 @@ class BankAccountApplication {
 
         BancAccount bancAccount6 = new BancAccount(100);
         BancAccount bancAccount7 = new BancAccount(200);
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter owner: ");
+        String owner = scanner.nextLine();
+
+        System.out.println("Enter money: ");
+        int money = scanner.nextInt();
+        
+        BancAccount bancAccount8 = new BancAccount(owner, money);
 
     }
 
