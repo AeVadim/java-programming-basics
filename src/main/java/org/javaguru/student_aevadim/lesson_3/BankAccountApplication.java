@@ -38,11 +38,17 @@ class BankAccountApplication {
 
         bancAccount3.setMoney(187765);
         bancAccount5.setMoney(999999);
-
         System.out.println("BA 3 Money: " + bancAccount3.getOwner());
         System.out.println("BA 5 Money: " + bancAccount5.getOwner());
 
+        BancAccount bancAccount9 = new BancAccount(200);
+        bancAccount9.addMoney(300);
+        System.out.println("BA 9 Money: " + bancAccount9.getMoney());
 
+
+        BancAccount bancAccount10 = new BancAccount(200);
+        bancAccount10.subMoney(100);
+        System.out.println("BA 10 Money: " + bancAccount10.getMoney());
     }
 
 

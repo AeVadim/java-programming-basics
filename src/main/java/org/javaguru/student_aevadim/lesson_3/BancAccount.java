@@ -30,4 +30,14 @@ class BancAccount {
     public void setMoney(int money){
         this.money = money;
     }
+
+    public void addMoney(int money)    {
+        this.money = this.money + money;
+    }
+
+    public void subMoney(int money) {
+        this.money = this.money - money;
+    }
+
 }
+
